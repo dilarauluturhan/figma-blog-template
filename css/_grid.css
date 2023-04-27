@@ -1,0 +1,24 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* flex özelliği verdiğimiz elementin bir altındaki elemente de flex özelliği verilmez! */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    justify-content: space-between;
+}
+
+.column {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* bunu fotoğrafın üstündeki yazıda kullan */
+/*
+font-family: 'Instrument Serif', serif;
+font-family: 'Source Sans Pro', sans-serif; 
+*/
