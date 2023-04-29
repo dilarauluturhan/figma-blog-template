@@ -1,0 +1,22 @@
+.navigation {
+    padding: 2rem 0;
+}
+
+.navigation .navigation-list .navigation-item .navigation-link {
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    .navigation .navigation-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .navigation .navigation-list .navigation-item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

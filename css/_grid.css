@@ -1,3 +1,7 @@
+.navbar {
+    padding: 1rem 0;
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
@@ -17,8 +21,9 @@
     padding-right: 1rem;
 }
 
+
+
 /* bunu fotoğrafın üstündeki yazıda kullan */
 /*
-font-family: 'Instrument Serif', serif;
-font-family: 'Source Sans Pro', sans-serif; 
+font-family: 'Instrument Serif', serif; 
 */
