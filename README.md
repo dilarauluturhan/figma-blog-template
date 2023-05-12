@@ -1,0 +1,1 @@
+# I coded the blog template I got from Figma using HTML, CSS and JavaScript.

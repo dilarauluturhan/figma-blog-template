@@ -1,0 +1,32 @@
+.con {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3rem;
+    border-style: groove;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.left-div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.right-div {
+    flex: 1;
+    font-family: 'Instrument Serif', serif;
+}
+
+.img-container {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Instrument Serif', serif;
+    padding: 20px;
+}
