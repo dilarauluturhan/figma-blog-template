@@ -5,16 +5,16 @@
     border-style: groove;
     border-radius: 7px;
     padding: 10px;
+    position: relative;
 }
 
 .left-div {
     flex: 1;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .right-div {
     flex: 1;
-    font-family: 'Instrument Serif', serif;
 }
 
 .img-container {
