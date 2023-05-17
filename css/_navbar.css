@@ -20,3 +20,23 @@
         padding-right: 10px;
     }
 }
+
+/* Animasyon adını, animasyonun ne kadar süreceğini, animasyonun başlamasını ne kadar geciktireceğimi tanımladım */
+.animate {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+/* Bu animasyon öğenin yukarıdan aşağıya doğru kayarak ve opaklık değerinin sıfırdan bir'e yükselerek görünmesini sağlayacak */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
